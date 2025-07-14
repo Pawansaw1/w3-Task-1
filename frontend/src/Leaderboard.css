@@ -1,0 +1,116 @@
+ /* Container Section */
+.leaderboard-section {
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
+}
+
+.leaderboard-section h2 {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 16px;
+  color: #1a1a1a;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* List Reset */
+.leaderboard-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Card Design */
+.leaderboard-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 18px;
+  margin-bottom: 12px;
+  border-radius: 10px;
+  border: 1px solid #eee;
+  background-color: #f9f9f9;
+  transition: background 0.2s ease, transform 0.1s ease, box-shadow 0.2s ease;
+  cursor: pointer;
+}
+
+.leaderboard-card:hover {
+  filter: brightness(0.98);
+}
+.leaderboard-card:active {
+  transform: scale(0.97);
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Rank Backgrounds */
+.gold-bg {
+  background-color: #fff9db !important;
+}
+
+.silver-bg {
+  background-color: #f0f0f5 !important;
+}
+
+.bronze-bg {
+  background-color: #fff4e6 !important;
+}
+
+.normal-bg {
+  background-color: #f9f9f9 !important;
+}
+
+/* Left Block */
+.left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+/* Rank Icons */
+.rank-icon {
+  font-size: 18px;
+}
+
+.rank-icon.gold { color: #FFD700; }
+.rank-icon.silver { color: #C0C0C0; }
+.rank-icon.orange { color: #CD7F32; }
+.rank-icon.gray { color: #888; }
+
+/* Badge */
+.rank-badge {
+  background: #e4e4e4;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+/* Name */
+.user-name {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* Points Block */
+.points-block {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  min-width: 60px;
+}
+
+.point-value {
+  font-size: 18px;
+  font-weight: bold;
+  color: #7c3aed;
+}
+
+.point-label {
+  font-size: 12px;
+  color: #666;
+  margin-top: 2px;
+}
