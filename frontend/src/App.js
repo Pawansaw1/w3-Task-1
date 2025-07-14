@@ -32,6 +32,7 @@ function App() {
     setReloadHistory(prev => !prev); 
   };
 
+
   return (
     <div className="app">
       <div className="container">
